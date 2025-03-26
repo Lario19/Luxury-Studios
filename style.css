@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #001F3F;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px;
+    background: url('hero.jpg') no-repeat center center/cover;
+}
+
+#gallery, #shop {
+    text-align: center;
+    padding: 40px;
+}
+
+.gallery-container img {
+    width: 30%;
+    margin: 10px;
+}
+
+.shop-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.shop-item img {
+    width: 200px;
+}
+
+button {
+    background-color: #001F3F;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
